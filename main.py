@@ -54,16 +54,12 @@ def solve_linear_system():
     # Reading number of unknowns
     matrixSize = int(input("Enter number of unknowns: "))
 
-    # Saisir les coefficients
     matrixInput = input_coefficients(matrixSize)
 
-    # Appliquer l'élimination gaussienne
     matrixInput = gaussian_elimination(matrixInput, matrixSize)
 
-    # Appliquer la substitution arrière
     solution_vector = back_substitution(matrixInput, matrixSize)
 
-    # Afficher la solution
     display_solution(solution_vector, matrixSize)
 
 
