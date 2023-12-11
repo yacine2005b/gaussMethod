@@ -51,8 +51,8 @@ def display_solution(solution_vector, matrixSize):
 
 
 def solve_linear_system():
-    # Reading number of unknowns
-    matrixSize = int(input("Enter number of unknowns: "))
+   
+    matrixSize = int(input("Enter the zize of the matrix: "))
 
     matrixInput = input_coefficients(matrixSize)
 
