@@ -51,8 +51,7 @@ def display_solution(solution_vector, matrixSize):
 
 
 def solve_linear_system():
-   
-    matrixSize = int(input("Enter the zize of the matrix: "))
+    matrixSize = int(input("Enter the size of the matrix: "))
 
     matrixInput = input_coefficients(matrixSize)
 
