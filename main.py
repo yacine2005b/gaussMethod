@@ -63,3 +63,7 @@ def solve_linear_system():
 
 
 solve_linear_system()
+# x+y+z=9
+# 2x-3y+4z=13
+# 3x+4y+5z=40
+# x=1,y=3,z=5
